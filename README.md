@@ -1,75 +1,80 @@
-# React + TypeScript + Vite
+# Charumathi | Software Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, interactive personal portfolio showcasing my experience, technical skills, and projects in Flutter and React.js development.
 
-Currently, two official plugins are available:
+## About Me
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+I am a Software Developer with around 3 years of experience in building mobile and web applications. I specialize in Flutter, Dart, React.js, TypeScript, and JavaScript, with a passion for creating responsive, scalable, and user-friendly applications.
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Mobile Development:** Flutter, Dart
+- **Frontend Development:** React.js, TypeScript, JavaScript, HTML, CSS
+- **Styling:** Tailwind CSS, Bootstrap
+- **Tools:** Git, GitHub, VS Code, Postman, Figma
+- **Development:** REST API Integration, Responsive UI Development
 
-## Expanding the ESLint configuration
+## Experience
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+### Generic Technologies
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+Software Developer
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+Working on mobile and web applications, including Merchant, Customer, Delivery Partner, Onboarding, and Admin applications using Flutter and React.js.
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+### AKV Technologies
 
+Web Developer / WordPress Developer
+
+Developed responsive web applications and WordPress-based websites using React.js, JavaScript, HTML, and CSS.
+
+## Featured Projects
+
+- Merchant Application
+- Customer Application
+- Delivery Partner Application
+- Onboarding Application
+- Admin Panel
+- MP Tours and Travel
+- AKV Technologies Website
+- Valuecodes
+- Inout Space E-commerce
+
+## Getting Started
+
+Clone the repository:
+
+```bash
+git clone https://github.com/charumathiudhayakumar/charumathi-portfolio.git
 ```
 
-You can also install [eslint-plugin-react-x](https://npmx.dev/package/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://npmx.dev/package/eslint-plugin-react-dom) for React-specific lint rules:
+Install dependencies:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-
+```bash
+npm install
 ```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Create a production build:
+
+```bash
+npm run build
+```
+
+## Deployment
+
+This portfolio is deployed using Vercel.
+
+## Contact
+
+- **Email:** charuudhaya512@gmail.com
+- **GitHub:** https://github.com/charumathiudhayakumar
+
+---
+
+Developed with React, TypeScript, and Vite by Charumathi.
