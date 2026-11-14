@@ -110,8 +110,8 @@ export function Hero() {
             GitHub
           </a>
           <a
-            href="/charumathi-resume.pdf"
-            download="Charumathi-Resume.pdf"
+            href="/CHARUMATHI_RESUME.pdf"
+            download="CHARUMATHI_RESUME.pdf"
             type="application/pdf"
           >
             <FiDownload />
